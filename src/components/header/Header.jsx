@@ -58,7 +58,7 @@ window.addEventListener("scroll",function(){
             </div>
 
             <div className="nav_toggle" onClick={()=>showMenu(!Toggle)}>
-                <i className="uil uil-apps"></i>
+                <i className="bx bx-menu"></i>
             </div>
         </nav>
     </header>

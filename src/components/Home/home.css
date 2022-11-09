@@ -50,7 +50,7 @@
 }
 
 
-home_subtitle::before{
+.home_subtitle::before{
     content: '';
     position: absolute;
     width: 70px;
@@ -68,17 +68,22 @@ home_subtitle::before{
 }
 
 .home_img{
-    background: url(../../assets/blog-item-03.png);
+    background: url(../../assets/home.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    
     width: 300px;
+    /* border-radius: 34px; */
+
     box-shadow: inset 0 0 0 9px rgb(255,255,255/30%);
     order: 1;
     justify-self: center;
 
     height: 300px;
     animation: profile_animate 8s ease-in-out infinite 1s;
+    
+
 }
 
 
